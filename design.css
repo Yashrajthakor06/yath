@@ -20,21 +20,22 @@ body {
 
 .container {
     position: relative;
-        }
+}
 
 .marquee {
     position: absolute;
     top: 0;
+    right: 10px; /* Adjust this value to position the marquee as desired. */
     z-index: 0;
-        }
+}
 
-.container {   
+.container {
     height: 500px;
     width: 350px;
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: src("yashraj2.jpg");
+    background-image: url("yashraj2.jpg");
     border-radius: 10px;
 }
 
@@ -56,43 +57,41 @@ body {
 
 h2 {
     font-size: xx-large;
-    color:black;
+    color: black;
     letter-spacing: -1px;
 }
 
 .details {
-    color:midnightblue;
+    color: midnightblue;
     font-style: italic;
 }
 
-.but1{
+.but1 {
     align-items: center;
-    background-color:black;
-    color:aliceblue;
+    background-color: black;
+    color: aliceblue;
     height: 1.5rem;
     width: 5rem;
     margin: 1.5rem 0.5rem 0.5rem;
     border-radius: 2rem;
 }
 
-/*top, right, bottom, and left*/
-
-.but2{
+.but2 {
     align-items: center;
-    background-color:black;
-    color:aliceblue;
+    background-color: black;
+    color: aliceblue;
     height: 1.5rem;
     width: 5rem;
     margin: 1.5rem 0.5rem 0.5rem;
     border-radius: 2rem;
 }
 
-.but3{
+.but3 {
     align-items: center;
-    background-color:black;
-    color:aliceblue;
+    background-color: black;
+    color: aliceblue;
     margin: 1.5rem 0.5rem 0.5rem;
-        height: 1.5rem;
+    height: 1.5rem;
     width: 5rem;
     border-radius: 2rem;
 }
